@@ -1,5 +1,5 @@
 import React from 'react';
-
+import about2 from './assrets/images/about2.jpeg';
 const About = () => {
   const about = [
     "Education is the most powerful weapon which you can use to change the world. The beautiful thing about learning is that no one can take it away from you. Education makes a people easy to lead but difficult to drive: easy to govern, but impossible to enslave.",
@@ -12,7 +12,7 @@ const About = () => {
     { 
       id: 1,
       className: "img-fluid rounded w-100 wow zoomIn",
-      img: "assrets/images/about2.jpeg",
+      img: "about2",
       alt: "Educational journey illustration"
     },
     { 
