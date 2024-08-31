@@ -17,8 +17,8 @@ const Mainpage = () => {
         <Header />
         <Home/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
+{/*           <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} /> */}
           <Route path="/About" element={<About />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Login" element={<Login />} />
