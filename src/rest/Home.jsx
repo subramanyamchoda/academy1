@@ -44,7 +44,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-6 text-center">
-                        <img src="assrets/images/1.svg" className="animated bounce img-fluid" alt="Learning Illustration" />
+                        <img src="1.svg" className="animated bounce img-fluid" alt="Learning Illustration" />
                     </div>
                 </div>
             </div>
