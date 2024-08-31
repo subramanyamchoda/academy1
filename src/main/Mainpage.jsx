@@ -15,6 +15,7 @@ const Mainpage = () => {
     <Router>
       <div>
         <Header />
+        <Home/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
