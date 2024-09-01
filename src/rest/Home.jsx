@@ -9,19 +9,19 @@ const Home = () => {
             id: 1,
             title: "Free Online Courses",
             info: "Access a variety of high-quality courses for free.",
-            img: "assrets/images/education.PNG"  // Corrected image path
+            img: "./assrets/images/education.PNG"  // Corrected image path
         },
         {
             id: 2,
             title: "Expert Instructors",
             info: "Learn from experienced professionals who are experts in their fields.",
-            img: "assrets/images/instructor.png"  // Corrected image path
+            img: "./assrets/images/instructor.png"  // Corrected image path
         },
         {
             id: 3,
             title: "Lifetime Access",
             info: "Enjoy lifetime access to all course materials and updates.",
-            img: "assrets/images/lifetime.png"  // Corrected image path
+            img: "./assrets/images/lifetime.png"  // Corrected image path
         }
     ];
 
@@ -44,7 +44,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-6 text-center">
-                        <img src="1.svg" className="animated bounce img-fluid" alt="Learning Illustration" />
+                        <img src="./assrets/images/1.svg" className="animated bounce img-fluid" alt="Learning Illustration" />
                     </div>
                 </div>
             </div>
